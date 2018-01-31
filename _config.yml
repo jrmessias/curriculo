@@ -13,7 +13,7 @@ style: styles-3
 
 #Profile information
 name: Israel Aparecido Messias Júnior
-tagline: Freelancer
+tagline: 
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: #'Colaborar com a empresa através de meu conhecimento, aprender e inovar, focando no
 #benefício e crescimento da empresa, pessoal e profissional.'
