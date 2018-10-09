@@ -1,8 +1,8 @@
 # Site Settings
 title: Israel Aparecido Messias Júnior | Curriculo
 nickname: jrmessias
-url: 'http://jrmessias.github.com'
-baseurl: '/curriculo/' #change it according to your repository name
+url: 'http://curriculo.jrmessias.github.com'
+baseurl: '/' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2

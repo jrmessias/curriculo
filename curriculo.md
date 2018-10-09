@@ -11,6 +11,10 @@ Trabalho em equipe, Liderança de equipe, Autodidata, Colaboração, Solidworks,
 
 ## Experiência
 
+### Programador de Sistemas - *Agência PDOIS / DiskFácil*
+*02/2018 – Atual*
+> Desenvolvimento e análise de dados para sites corporativos. Desenvolvimento front e back-end. Otimização para SEO em sites corporativos. Atendimento e suporte técnico ao cliente.
+
 ### Analista de TI - *Hospital Regional Terezinha Gaio Basso*
 *04/2017 – 11/2017 – 8 meses*
 > Suporte técnico a hardware e software. Organização e padronização de atividades internas. Melhorias em infra-estrutura. Análise, organização e encaminhamentos de melhorias aos sistemas de gestão. Análises para diminuição de gastos do setor.
@@ -33,7 +37,7 @@ Trabalho em equipe, Liderança de equipe, Autodidata, Colaboração, Solidworks,
 
 ## Formação Acadêmica
 ### Automação Industrial - *SENAI/SMO*
-*Técnico* - 2017/atual
+*Técnico* - 2017/cursando
 
 ### Sistemas de Informação - *UNOESC/SMO*
 *Graduação* - 2003/2007
@@ -42,6 +46,9 @@ Trabalho em equipe, Liderança de equipe, Autodidata, Colaboração, Solidworks,
 *Mestrado* - Não finalizado
 
 ## Cursos
+### Curso Avançado de Atendimento a Emergências - CBAE - *CBMSC/SC*
+*Cursando*
+
 ### Curso Básico de Atendimento a Emergências - CBAE - *CBMSC/SC*
 *11/2017*
 
