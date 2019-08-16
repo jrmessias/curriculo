@@ -37,7 +37,7 @@ Trabalho em equipe, Liderança de equipe, Autodidata, Colaboração, Solidworks,
 
 ## Formação Acadêmica
 ### Automação Industrial - *SENAI/SMO*
-*Técnico* - 2017/cursando
+*Técnico* - 2017/2018
 
 ### Sistemas de Informação - *UNOESC/SMO*
 *Graduação* - 2003/2007
@@ -47,7 +47,7 @@ Trabalho em equipe, Liderança de equipe, Autodidata, Colaboração, Solidworks,
 
 ## Cursos
 ### Curso Avançado de Atendimento a Emergências - CBAE - *CBMSC/SC*
-*Cursando*
+*01/2019*
 
 ### Curso Básico de Atendimento a Emergências - CBAE - *CBMSC/SC*
 *11/2017*
