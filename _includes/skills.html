@@ -1,24 +1,14 @@
-{% if site.data.skills %}
-<section class="skills-section section">
-
-  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-
-  <div class="skillset">
-
-    {% for skill in site.data.skills %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="skills">
+    <div class="title">Skills</div>
+    {% for sks in skills %}
+        <div class="skills-item">
+            <div class="category">{{sks.category}}</div>
+            {% for sk in sks.skill%}
+            <div class="skill">{{sk}}</div>
+            {% endfor %}
         </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
     {% endfor %}
-
-  </div>
-
-</section><!--//skills-section-->
+</section>
 {% endif %}

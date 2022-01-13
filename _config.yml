@@ -1,38 +1,15 @@
-# Site Settings
-title: Israel Aparecido Messias Júnior | Curriculo
-nickname: jrmessias
-url: 'http://curriculo.jrmessias.github.com'
-baseurl: '/' #change it according to your repository name
+title: Israel Aparecido Messias Júnior
+description:  Currículo
+url: https://curriculo.jrmessias.com.br
+baseurl: ''
+theme_skin: green
 
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
+sass:
+  sass_dir: _sass
+  style: compressed
 
-#Profile information
-name: Israel Aparecido Messias Júnior
-tagline: 
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: #'Colaborar com a empresa através de meu conhecimento, aprender e inovar, focando no
-#benefício e crescimento da empresa, pessoal e profissional.'
+plugins:
+    - jekyll-minifier
 
-#sidebar links
-email: jrmessias@gmail.com
-phone: 49 98819 8409
-website: #jrmessias.com.br #do not add http://
-linkedin: jrmessias
-github: jrmessias
-twitter: #'@jrmessias'
-#Update all the sections by editing the files inside _data folder.
-
-# Tracker
-analytics: UA-9490633-4
-
-# Build settings
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+exclude:
+  - docker-compose.yml

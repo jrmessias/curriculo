@@ -1,25 +1,16 @@
-{% if site.data.projects %}
-<section class="section projects-section">
-
-  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-
-  {% for intro in site.data.projects %}
-  <div class="intro">
-      <p>{{ intro.description }}</p>
-  </div><!--//intro-->
-  {% endfor%}
-
-  {% for project in site.data.projects %}
-    <div class="item">
-
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section class="projects">
+    <h2 class="title">Projetos</h2>
+    {% for p in projects %}
+        <div class="project">
+            <span>
+                <a class="project-link" href="{{p.link}}">
+                    {{p.title}}
+                </a>
+            </span>
+            <span class="details">- {{p.details}}</span>
+        </div>
+    {% endfor %}
+</section>
 {% endif %}

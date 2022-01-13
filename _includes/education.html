@@ -1,17 +1,14 @@
-{% if site.data.educations %}
-<div class="education-container container-block">
-
-  <h2 class="container-block-title">Formação Acadêmica</h2>
-
-  {% for education in site.data.educations %}
-    <div class="item">
-      <h3 class="education">{{ education.education }}</h3>
-      <h4 class="degree">{{ education.degree }}</h4>
-      <h5 class="meta">{{ education.university }}</h5>
-      <div class="time">{{ education.time }}</div>
-      <div class="status">{{ education.status }}</div>
-    </div><!--//item-->
-  {% endfor %}
-
-</div><!--//education-container-->
+{% assign education = site.data.data.education %}
+{% if education %}
+<section class="education">
+    <div class="title">Formação acadêmica</div>
+    {% for ed in education %}
+        <div class="education-item">
+            <div class="education-title">{{ed.education}}</div>
+            <div class="degree">{{ed.degree}}</div>
+            <div class="university">{{ed.university}}</div>
+            <div class="time">{{ed.time}}</div>
+        </div>
+    {% endfor %}
+</section>
 {% endif %}
