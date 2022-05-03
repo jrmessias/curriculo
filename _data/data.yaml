@@ -1,0 +1,135 @@
+# Profile
+profile: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+  fugiat nulla pariatur.
+
+# Sidebar
+contact:
+  email: jrmessias@gmail.com
+  github: jrmessias
+  linkedin: jrmessias
+  phone: +55 49 98819 8409
+  gitlab:
+  twitter:
+  site: jrmessias.com.br
+  whatsapp: 5549988198409
+  email_form_url: https://form.jotform.com/221178246038051
+
+languages:
+  - idiom: Português (BR)
+
+educations:
+  - education: Desenvolvimento de Aplicações para Dispositivos Móveis (App's)
+    degree: Pós-Graduação Latu Sensu
+    time: 2020
+    university: UniBF/EAD
+  - education: Desenvolvimento de Jogos Digitais
+    degree: Pós-Graduação Latu Sensu
+    time: 2020
+    university: UniBF/EAD
+  - education: MBA em Gestão de Marcas e Produtos
+    degree: Pós-Graduação Latu Sensu
+    time: 2020
+    university: UniBF/EAD
+  - education: Automação Industrial
+    degree: Técnico
+    university: SENAI/SMO
+    time: 2017 - 2020
+  - education: Sistemas de Informação
+    degree: Graduação
+    university: UNOESC/SMO
+    time: 2003 - 2007
+
+skills:
+  - category: Backend
+    skill:
+      - PHP
+      - Laravel
+      - SQL
+  - category: Frontend
+    skill:
+      - Javascript
+      - CSS
+      - SASS/SCSS
+      - Tailwind CSS
+      - Bootstrap
+  - category: Mobile
+    skill:
+      - Flutter
+  - category: Outras
+    skill:
+      - Liderança
+      - Análise
+
+# Experience
+experiences:
+  - role: Programador de Sistemas
+    time: 2020-Atual
+    company: iopoint, SMOeste - SC
+    details: |
+      Desenvolvimento de sistema SaaS, back-end, front-end, API e aplicativo para Android e iOS.
+    technologies_used: |
+      Angular, Laravel, Flutter
+  - role: Programador de Sistemas
+    time: 2018-2020
+    company: Agência PDOIS / DiskFácil, SMOeste - SC
+    details: |
+      Desenvolvimento e análise de dados para sites corporativos. Desenvolvimento front e back-end.
+      Otimização para SEO em sites corporativos. Atendimento e suporte técnico ao cliente.
+    technologies_used: |
+      Laravel, CSS, Javascript
+  - role: Analista de TI
+    time: 2017
+    company: Hospital Regional Terezinha Gaio Basso / Instituto Santé, SMOeste - SC
+    details: |
+      Suporte técnico a hardware e software. Organização e padronização de atividades internas.
+      Análises de melhorias para infra-estrutura. Análise, organização e encaminhamentos de melhorias aos sistemas de gestão.
+      Redução de gastos do setor.
+    technologies_used: |
+      TI, Gestão
+  - role: Professor
+    time: 2016-2017
+    company: SENAC, SMOeste - SC
+    details: |
+      Orientações em aulas no segmento de desenvolvimento web e tecnologias.
+      Orientações de trabalho de conclusão de curso. Ensino de HTML, CSS, JS, PHP, Animação web, CMS e POO
+    technologies_used: |
+      HTML, CSS, JS, PHP, CMS, POO
+  - role: Full-Stack Developer
+    time: 2011-2017
+    company: DBlinks, SMOeste - SC
+    details: |
+      Análise de requisitos. Desenvolvimento de sites/sistemas personalizados e internos.
+      Desenvolvimento de aplicativo para Android e iOS utilizando linguagens web.
+      Padronização de documentações e processos internos.
+      Implantação e padronização de sistema de administração para sites/sistemas. Treinamentos.
+      Desenvolvimento de comércio eletrônico para supermercados integrado com ERP.
+      Desenvolvimento de template e personalização de Wordpress. Análise de dados
+      Atendimento ao cliente. Liderança de equipe.
+    technologies_used: |
+      Liderança, Suporte Técnico, PHP, CSS, JS, Scrum, Gestão
+  - role: Instrutor
+    time: 2012-2015
+    company: SENAI, SMOeste - SC
+    details: |
+      Orientações em aulas no segmento de desenvolvimento web e tecnologias.
+      Orientações de trabalho de conclusão de curso. Ensino de HTML, CSS, JS, PHP, POO e frameworks Web.
+    technologies_used: |
+      HTML, CSS, JS, PHP, CMS 
+
+projects:
+  - title: JCI Convenção Nacional 2021
+    time: 2021
+    link: https://play.google.com/store/apps/details?id=br.com.jrmessias.jci.cn2021
+    details: |
+      Aplicativo para acompanhamento do evento JCI CN 2021.
+
+volunteering:
+  - time: 2019-2021
+    role: Bombeiro Comunitário
+    company: CBMSC
+    details: |
+      Atendimento pré-hospitalar e resgate.

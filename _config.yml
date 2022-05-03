@@ -1,15 +1,16 @@
-title: Israel Aparecido Messias Júnior
-description:  Currículo
-url: https://curriculo.jrmessias.com.br
-baseurl: ''
-theme_skin: green
+# Permalinks
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
-    - jekyll-minifier
+# Setup
+title:              'Israel Messias Júnior'
+tagline:            'Developer'
+url:                https://jrmessias.com.br/resume
+baseurl:            ''
+twitter:            jrmessias
 
 exclude:
-  - docker-compose.yml
+  - package.json
+  - postcss.config.js
+  - readme.md
+  - run.bat
+  - tailwind.config.js
+  - feed.xml

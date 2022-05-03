@@ -1,28 +1,13 @@
-# CV jekyll theme
+This is the personal resume for Israel Messias Júnior 
 
-Free theme for the creation of your CV. View demo [here](https://jekyll-cv.stavrospanakakis.com/).
+In order to run the side from code. 
 
-## Features
-- Lightweight
-- Free & Open Source
-- Mobile Responsive
-- Dark Mode Support
+1. `bundle install`
+2. `npm install`
+3. `bundle exec jekyll serve`
 
+In order to generate a new tailwind.css file, run this command. 
 
-## Preview
-![Preview](./preview.png)
-
-## Installation
-- [Fork](https://github.com/stavrospanakakis/jekyll-cv/fork) the repository
-- Create a ```gh-pages``` branch
-- Go to Settings and select ```gh-pages``` as Github Pages source
-- Replace dummy data at ```_data/data.yml``` and ```_config.yml```
-- You're done!
-
-Go to https://username.github.io/jekyll-cv/
-
-## Contributing 
-- Feel free to open issues and create pull requests for new features or skins
-
-## License
-- [MIT](./LICENSE)
+```
+NODE_ENV=production npx tailwindcss -c tailwind.config.js -o public/css/tailwind.css --minify
+```

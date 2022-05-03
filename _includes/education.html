@@ -1,14 +1,13 @@
-{% assign education = site.data.data.education %}
-{% if education %}
-<section class="education">
-    <div class="title">Formação acadêmica</div>
-    {% for ed in education %}
-        <div class="education-item">
-            <div class="education-title">{{ed.education}}</div>
-            <div class="degree">{{ed.degree}}</div>
-            <div class="university">{{ed.university}}</div>
-            <div class="time">{{ed.time}}</div>
-        </div>
-    {% endfor %}
+{% assign educations = site.data.data.educations %}
+{% for education in educations %}
+<section class="mb-4.5 break-inside-avoid">
+    <header>
+        <h3 class="text-lg font-semibold leading-snugish text-slate-600 dark:text-slate-400">
+            {{ education.education }}
+        </h3>
+        <p class="leading-normal text-md text-slate-500 dark:text-slate-500">
+            {{ education.time }} | {{ education.degree }} - {{ education.university }}
+        </p>
+    </header>
 </section>
-{% endif %}
+{% endfor %}

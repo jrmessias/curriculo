@@ -1,7 +1,12 @@
 source "https://rubygems.org"
+ 
+gem 'jekyll'
 
-gem "jekyll", "~> 3.9"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-paginate"
+  gem "kramdown-parser-gfm"
+end
+
+
 gem "webrick", "~> 1.7"
-gem "kramdown-parser-gfm"
-
-gem "jekyll-minifier", "0.1.10"
