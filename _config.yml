@@ -3,9 +3,11 @@
 # Setup
 title:              'Israel Messias Júnior'
 tagline:            'Developer'
-url:                https://jrmessias.com.br/resume
+url:                https://curriculo.jrmessias.com.br
 baseurl:            ''
 twitter:            jrmessias
+
+googleanalytics: "G-SMX0451JVM"
 
 exclude:
   - package.json
