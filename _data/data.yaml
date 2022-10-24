@@ -133,3 +133,23 @@ volunteering:
     company: CBMSC
     details: |
       Atendimento pré-hospitalar e resgate.
+
+events:
+  - title: Innova Startup Extreme
+    time: 2021
+    local: São Miguel do Oeste - SC
+    link:
+    details: |
+      Evento de imersão, uma experiência única
+  - title: Startup Summit
+    time: 2022
+    local: Florianópolis - SC
+    link: https://www.startupsummit.com.br/
+    details: |
+      O evento que vai levar sua startup para o próximo nível.
+  - title: Techstars Startup Weekend São Miguel do Oeste
+    time: 2022
+    local: São Miguel do Oeste - SC
+    link: https://event.techstars.com/event/SLLFIKlBXw
+    details: |
+      Aprenda como pensar, trabalhar, e construir uma startup em 54 horas
