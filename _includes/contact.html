@@ -9,48 +9,13 @@
         </li>
         <li class="mt-1.5 leading-normal text-md">
             <div x-data="{ 'showModal': false }">
-                <a href="#" @click="showModal = true" class="group">
+                <a href="#" @click="showModal = !showModal" class="group">
                     Formulário de contato
                     <span class="inline-block text-slate-500 print:text-black font-normal group-hover:text-slate-700 transition duration-100 ease-in">↗</span>
                 </a>
                 <!-- Modal -->
-                <div class="fixed inset-0 z-30 flex items-center justify-center overflow-auto bg-black bg-opacity-50" x-show="showModal">
-                    <!-- Modal inner -->
-                    <div class="mt-7 bg-white  rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
-                        <div class="p-4 sm:p-7">
-                            <div class="flex items-center justify-between">
-                                <h2 class="block text-2xl font-bold text-gray-800 dark:text-white">😀 Bem vindo, vamos conversar!</h2>
-                                <div class="w-10"></div>
-                                <button type="button" class="z-50 cursor-pointer" @click="showModal = false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-                                </button>
-                            </div>
-
-                            <div class="mt-5">
-                                <form method="post" action="https://formspree.io/f/xvoywoew">
-                                    <div class="grid gap-y-4">
-                                        <div>
-                                            <div class="relative">
-                                                <input type="text" id="name" name="name" class="py-3 px-4 mb-2 block w-full border-2 border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 shadow-sm" required aria-describedby="name-error" placeholder="Nome">
-                                                <input type="email" id="email" name="email" class="py-3 px-4 mb-2 block w-full border-2 border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 shadow-sm" required aria-describedby="email-error" placeholder="E-mail">
-                                                <textarea name="message" id="message" class="py-3 px-4 block w-full border-2 border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 shadow-sm" cols="30" rows="5" required aria-describedby="message-error" placeholder="Mensagem"></textarea>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
-                                            Enviar
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {% include contact-modal.html %}
+                <!-- Modal -->
             </div>
         </li>
         <li class="mt-1.5 leading-normal text-md">
