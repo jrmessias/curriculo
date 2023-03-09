@@ -70,12 +70,12 @@ experiences:
     time: 2020-Atual
     company: iopoint, SMOeste - SC
     details: |
-      Desenvolvimento de sistema SaaS, back-end, front-end, API e aplicativo para Android e iOS.
+      Desenvolvimento de sistema SaaS, back-end, front-end, API e aplicativo para Android e iOS. (PHP, JS, TS, CSS, HTML, Dart, Laravel, Angular, Flutter)
     technologies_used: |
       Angular, Laravel, Flutter
   - role: Programador de Sistemas
     time: 2018-2020
-    company: Agência PDOIS / DiskFácil, SMOeste - SC
+    company: Agência PDOIS / Disk Fácil, SMOeste - SC
     details: |
       Desenvolvimento e análise de dados para sites corporativos. Desenvolvimento front e back-end.
       Otimização para SEO em sites corporativos. Atendimento e suporte técnico ao cliente.
@@ -100,7 +100,7 @@ experiences:
       HTML, CSS, JS, PHP, CMS, POO
   - role: Full-Stack Developer
     time: 2011-2017
-    company: DBlinks, SMOeste - SC
+    company: DB'links Sistemas, SMOeste - SC
     details: |
       Análise de requisitos. Desenvolvimento de sites/sistemas personalizados e internos.
       Desenvolvimento de aplicativo para Android e iOS utilizando linguagens web.
@@ -138,7 +138,6 @@ events:
   - title: Innova Startup Extreme
     time: 2021
     local: São Miguel do Oeste - SC
-    link:
     details: |
       Evento de imersão, uma experiência única
   - title: Startup Summit
