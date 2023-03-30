@@ -22,18 +22,22 @@ languages:
   - idiom: Português (BR)
 
 educations:
+  - education: Informática na Educação
+    degree: Pós-Graduação Latu Sensu
+    time: Andamento
+    university: IFMA
   - education: Desenvolvimento de Aplicações para Dispositivos Móveis (App's)
     degree: Pós-Graduação Latu Sensu
     time: 2020
-    university: UniBF/EAD
+    university: UniBF
   - education: Desenvolvimento de Jogos Digitais
     degree: Pós-Graduação Latu Sensu
     time: 2020
-    university: UniBF/EAD
+    university: UniBF
   - education: MBA em Gestão de Marcas e Produtos
     degree: Pós-Graduação Latu Sensu
     time: 2020
-    university: UniBF/EAD
+    university: UniBF
   - education: Automação Industrial
     degree: Técnico
     university: SENAI/SMO
@@ -62,13 +66,13 @@ skills:
   - category: Outras
     skill:
       - Liderança
-      - Análise
+      - Análise de dados
 
 # Experience
 experiences:
   - role: Programador de Sistemas
     time: 2020-Atual
-    company: iopoint, SMOeste - SC
+    company: iopoint Tecnologia, SMOeste - SC
     details: |
       Desenvolvimento de sistema SaaS, back-end, front-end, API e aplicativo para Android e iOS. (PHP, JS, TS, CSS, HTML, Dart, Laravel, Angular, Flutter)
     technologies_used: |
@@ -127,28 +131,28 @@ projects:
     details: |
       Aplicativo para acompanhamento do evento JCI CN 2021.
 
-volunteering:
-  - time: 2019-2021
-    role: Bombeiro Comunitário
-    company: CBMSC
-    details: |
-      Atendimento pré-hospitalar e resgate.
+#volunteering:
+#  - time: 2019-2021
+#    role: Bombeiro Comunitário
+#    company: CBMSC
+#    details: |
+#      Atendimento pré-hospitalar e resgate.
 
 events:
-  - title: Innova Startup Extreme
-    time: 2021
-    local: São Miguel do Oeste - SC
-    details: |
-      Evento de imersão, uma experiência única
-  - title: Startup Summit
-    time: 2022
-    local: Florianópolis - SC
-    link: https://www.startupsummit.com.br/
-    details: |
-      O evento que vai levar sua startup para o próximo nível.
   - title: Techstars Startup Weekend São Miguel do Oeste
     time: 2022
     local: São Miguel do Oeste - SC
     link: https://event.techstars.com/event/SLLFIKlBXw
     details: |
       Aprenda como pensar, trabalhar, e construir uma startup em 54 horas
+  - title: Startup Summit
+    time: 2022
+    local: Florianópolis - SC
+    link: https://www.startupsummit.com.br/
+    details: |
+      O evento que vai levar sua startup para o próximo nível.
+  - title: Innova Startup Extreme
+    time: 2021
+    local: São Miguel do Oeste - SC
+    details: |
+      Evento de imersão, uma experiência única
