@@ -70,6 +70,13 @@ skills:
 
 # Experience
 experiences:
+  - role: Professor
+    time: 2023-Atual
+    company: SENAC, SMOeste - SC
+    details: |
+      Elaboração de projetos web e publicação de projetos
+    technologies_used: |
+      HTML, CSS, JS, PHP, CMS, POO
   - role: Programador de Sistemas
     time: 2020-Atual
     company: iopoint Tecnologia, SMOeste - SC
