@@ -147,6 +147,12 @@ projects:
 
 events:
   - title: Techstars Startup Weekend São Miguel do Oeste
+    time: 2023
+    local: São Miguel do Oeste - SC
+    link: https://www.sympla.com.br/evento/techstars-startup-weekend-2023-sao-miguel-do-oeste/2054838
+    details: |
+      Aprenda como pensar, trabalhar, e construir uma startup em 54 horas
+  - title: Techstars Startup Weekend São Miguel do Oeste
     time: 2022
     local: São Miguel do Oeste - SC
     link: https://event.techstars.com/event/SLLFIKlBXw
