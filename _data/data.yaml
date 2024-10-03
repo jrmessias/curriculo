@@ -22,6 +22,10 @@ languages:
   - idiom: Português (BR)
 
 educations:
+  - education: User Experience (UX) e User Interface (UI)
+    degree: Pós-Graduação Latu Sensu
+    time: Andamento
+    university: Faculeste
   - education: Informática na Educação
     degree: Pós-Graduação Latu Sensu
     time: Andamento
@@ -74,7 +78,7 @@ experiences:
     time: 2023-Atual
     company: SENAC, SMOeste - SC
     details: |
-      Elaboração de projetos web e publicação de projetos
+      Elaboração de projetos web e publicação de projetos, Publicação de aplicações web
     technologies_used: |
       HTML, CSS, JS, PHP, CMS, POO
   - role: Programador de Sistemas
@@ -106,7 +110,7 @@ experiences:
     company: SENAC, SMOeste - SC
     details: |
       Orientações em aulas no segmento de desenvolvimento web e tecnologias.
-      Orientações de trabalho de conclusão de curso. Ensino de HTML, CSS, JS, PHP, Animação web, CMS e POO
+      Orientações de trabalho de conclusão de curso. Ensino de HTML, CSS, JS, PHP, Animação web, CMS e POO.
     technologies_used: |
       HTML, CSS, JS, PHP, CMS, POO
   - role: Full-Stack Developer
@@ -146,6 +150,12 @@ projects:
 #      Atendimento pré-hospitalar e resgate.
 
 events:
+  - title: Techstars Startup Weekend São Miguel do Oeste (org.)
+    time: 2024
+    local: São Miguel do Oeste - SC
+    link: https://www.sympla.com.br/evento/techstars-startup-weekend-2024-sao-miguel-do-oeste/2584641
+    details: |
+      Aprenda como pensar, trabalhar, e construir uma startup em 54 horas
   - title: Techstars Startup Weekend São Miguel do Oeste
     time: 2023
     local: São Miguel do Oeste - SC
