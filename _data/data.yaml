@@ -78,9 +78,9 @@ experiences:
     time: 2023-Atual
     company: SENAC, SMOeste - SC
     details: |
-      Elaboração de projetos web e publicação de projetos, Publicação de aplicações web
+      Banco de Dados, Elaboração de projetos web, Publicação de aplicações web, Desenvolvimento back-end de aplicações web, Google Workspace
     technologies_used: |
-      HTML, CSS, JS, PHP, CMS, POO
+      HTML, CSS, JS, PHP, CMS, POO, FTP, PHP, Laravel
   - role: Programador de Sistemas
     time: 2020-Atual
     company: iopoint Tecnologia, SMOeste - SC
@@ -136,12 +136,26 @@ experiences:
       HTML, CSS, JS, PHP, CMS
 
 projects:
-  - title: JCI Convenção Nacional 2021
+  - title: Weather App
     time: 2021
-    link: https://play.google.com/store/apps/details?id=br.com.jrmessias.jci.cn2021
+    link: https://weather_app.jrmessias.com.br/
     details: |
-      Aplicativo para acompanhamento do evento JCI CN 2021.
-
+      Aplicativo para previsão do tempo
+  - title: Vuemon
+    time: 2021
+    link: https://vuemon.jrmessias.com.br/
+    details: |
+      Pokedéx em Vue.js
+  - title: Vuedéx Go
+    time: 2021
+    link: https://vuedex-go.jrmessias.com.br/
+    details: |
+      Pokedéx do Pokémon Go em Vue.js
+  - title: React Calculator
+    time: 2021
+    link: https://jrmessias-react-calculator.netlify.app/
+    details: |
+      Calculadora em React
 #volunteering:
 #  - time: 2019-2021
 #    role: Bombeiro Comunitário
