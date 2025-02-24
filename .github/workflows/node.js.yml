@@ -1,6 +1,8 @@
 name: pnpm Workflow
 on:
+  # Runs on pushes targeting the default branch
   push:
+    branches: ['main']
 
 jobs:
   build:
@@ -21,3 +23,15 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
+    - name: Build
+      run: pnpm run build
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        # Upload dist repository
+        path: './dist'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
