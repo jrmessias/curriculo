@@ -2,7 +2,7 @@ name: pnpm Workflow
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['main']
+    branches: ['master']
 
 jobs:
   build:
