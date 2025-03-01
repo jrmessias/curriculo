@@ -74,7 +74,7 @@ const experiences = ref([
 <template>
   <section class="mb-4 break-inside-avoid" v-for="(experience, index) in experiences" :key="index">
     <header>
-      <h3 class="text-lg font-semibold text-slate-600 dark:text-slate-400 leading-snugish">
+      <h3 class="text-lg/2 font-semibold text-slate-600 dark:text-slate-400 leading-snugish">
         {{ experience.company }}
       </h3>
       <p class="leading-normal text-md text-slate-600 dark:text-slate-400">

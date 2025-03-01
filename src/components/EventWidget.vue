@@ -49,7 +49,7 @@ const events = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(event, index) in events" :key="index">
     <header>
-      <h3 class="text-lg font-semibold eading-snugish text-slate-600 dark:text-slate-400">
+      <h3 class="text-lg/2 font-semibold eading-snugish text-slate-600 dark:text-slate-400">
         <a :href="event.link" class="group" :title="event.details">
           {{event.title}}
           <span class="inline-block text-slate-500 print:text-black font-normal group-hover:text-slate-700 transition duration-100 ease-in">↗</span>

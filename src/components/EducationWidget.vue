@@ -50,7 +50,7 @@ const educations = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(education, index) in educations" :key="index">
     <header>
-      <h3 class="text-lg font-semibold leading-snugish text-slate-600 dark:text-slate-400">
+      <h3 class="text-lg/2 font-semibold leading-snugish text-slate-600 dark:text-slate-400">
         {{ education.education }}
       </h3>
       <p class="leading-normal text-md text-slate-500 dark:text-slate-500">

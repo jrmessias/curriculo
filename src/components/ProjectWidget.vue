@@ -32,7 +32,7 @@ const projects = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(project, index) in projects" :key="index">
     <header>
-      <h3 class="text-lg font-semibold eading-snugish text-slate-600 dark:text-slate-400">
+      <h3 class="text-lg/2 font-semibold eading-snugish text-slate-600 dark:text-slate-400">
         <a href="{{project.link}}" class="group">
           {{ project.title }}
           <span

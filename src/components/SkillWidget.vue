@@ -28,7 +28,7 @@ const skills = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(skill, index) in skills" :key="index">
     <header>
-      <h3 class="text-lg font-semibold leading-snugish text-slate-600 dark:text-slate-400">
+      <h3 class="text-lg/2 font-semibold leading-snugish text-slate-600 dark:text-slate-400">
         {{ skill.category }}
       </h3>
     </header>

@@ -144,7 +144,6 @@ import ProjectWidget from "./components/ProjectWidget.vue";
 import EventWidget from "./components/EventWidget.vue";
 import SkillWidget from "./components/SkillWidget.vue";
 
-const isContactModalOpen = ref(false);
 let isDarkMode = ref(false);
 const isDarkModeLocalStorageItem = ref('color-theme');
 const darkModeOption = ref('dark');
@@ -171,23 +170,11 @@ const setTheme = (value) => {
   window.localStorage.setItem(isDarkModeLocalStorageItem.value, value ? darkModeOption.value : lightModeOption.value);
 }
 
-const openContactModal = () => {
-  isContactModalOpen.value = true;
-}
-
 const site = ref({
   title: 'Israel Messias Junior',
   acronym: 'IMJ',
   url: 'https://curriculo.jrmessias.com.br',
 });
-
-// const submitForm = () => {
-//   // Handle form submission here
-//   console.log('Form submitted with email:', email.value);
-//   // You would typically send this to your backend or email service
-//   alert('Obrigado! Seu eBook será enviado para ' + email.value);
-//   email.value = ''; // Clear the input after submission
-// };
 </script>
 
 <style>
