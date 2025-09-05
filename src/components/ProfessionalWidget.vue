@@ -3,20 +3,20 @@ import {ref} from "vue";
 
 const experiences = ref([
   {
-    role: "Professor",
-    time: "2023-Atual",
-    company: "SENAC, SMOeste - SC",
-    details: "Banco de Dados. Elaboração de projetos web. Publicação de aplicações web." +
-        " Desenvolvimento back-end de aplicações web, Google Workspace",
-    skills: "HTML, CSS, JS, PHP, CMS, POO, FTP, PHP, Laravel"
-  },
-  {
     role: "Analista de Sistemas",
     time: "2020-Atual",
     company: "iopoint Tecnologia, SMOeste - SC",
     details: "Desenvolvimento de sistema SaaS, back-end, front-end, API e aplicativo para Android e iOS." +
         " (PHP, JS, TS, CSS, HTML, Dart, Laravel, Angular, Flutter)",
     skills: "Angular, Laravel, Flutter",
+  },
+  {
+    role: "Professor",
+    time: "2023-Atual",
+    company: "SENAC, SMOeste - SC",
+    details: "Banco de Dados. Elaboração de projetos web. Publicação de aplicações web." +
+        " Desenvolvimento back-end de aplicações web, Google Workspace",
+    skills: "HTML, CSS, JS, PHP, CMS, POO, FTP, PHP, Laravel"
   },
   {
     role: "Programador de Sistemas",

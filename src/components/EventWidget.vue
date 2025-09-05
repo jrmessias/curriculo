@@ -4,6 +4,12 @@ import {ref} from "vue";
 const events = ref([
   {
     title: 'Hackaton Innova Saúde São Miguel do Oeste (Mentor)',
+    year: 2025,
+    local: 'São Miguel do Oeste - SC',
+    details: 'Aprenda como pensar, trabalhar, e construir uma startup em 54 horas'
+  },
+  {
+    title: 'Hackaton Innova Saúde São Miguel do Oeste (Mentor)',
     year: 2024,
     local: 'São Miguel do Oeste - SC',
     details: 'Aprenda como pensar, trabalhar, e construir uma startup em 54 horas'
@@ -16,7 +22,7 @@ const events = ref([
     details: 'Aprenda como pensar, trabalhar, e construir uma startup em 54 horas'
   },
   {
-    title: 'Techstars Startup Weekend São Miguel do Oeste',
+    title: 'Techstars Startup Weekend São Miguel do Oeste 🏆',
     year: 2023,
     local: 'São Miguel do Oeste - SC',
     link: 'https://www.sympla.com.br/evento/techstars-startup-weekend-2023-sao-miguel-do-oeste/2054838',

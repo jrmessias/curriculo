@@ -3,6 +3,18 @@ import {ref} from "vue";
 
 const educations = ref([
   {
+    education: "Desenvolvimento Full-Stack",
+    degree: "Pós-Graduação Latu Sensu",
+    time: "-",
+    university: "IFSudesteMG"
+  },
+  {
+    education: "Gestão, Estratégia e Inovação",
+    degree: "Pós-Graduação Latu Sensu",
+    time: "-",
+    university: "IFFarroupilha"
+  },
+  {
     education: "User Experience (UX) e User Interface (UI)",
     degree: "Pós-Graduação Latu Sensu",
     time: 2024,
