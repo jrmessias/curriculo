@@ -24,9 +24,9 @@ module.exports = {
                 normal: "1.34",
             },
             fontFamily: {
-                sans: ['"PT Sans"', ...defaultTheme.fontFamily.sans],
-                serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
-                mono: ['"PT mono"', ...defaultTheme.fontFamily.mono],
+                sans: ['"Space Grotesk"', ...defaultTheme.fontFamily.sans],
+                serif: ['"IBM Plex Sans"', ...defaultTheme.fontFamily.serif],
+                mono: ['"IBM Plex Mono"', ...defaultTheme.fontFamily.mono],
             },
             fontSize: {
                 'lg': '1.25rem',
@@ -41,4 +41,3 @@ module.exports = {
         require('@tailwindcss/container-queries'),
     ],
 }
-

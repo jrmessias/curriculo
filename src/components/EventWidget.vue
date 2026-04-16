@@ -55,16 +55,16 @@ const events = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(event, index) in events" :key="index">
     <header>
-      <h3 class="text-lg/2 font-semibold eading-snugish text-slate-600 dark:text-slate-400">
+      <h3 class="font-sans text-lg/2 font-semibold leading-snugish text-slate-600 dark:text-slate-400">
         <a :href="event.link" class="group" :title="event.details">
           {{event.title}}
           <span class="inline-block text-slate-500 print:text-black font-normal group-hover:text-slate-700 transition duration-100 ease-in">↗</span>
         </a>
       </h3>
-      <p class="leading-normal text-md text-slate-600 dark:text-slate-400 inline">
+      <p class="font-mono text-sm leading-normal text-slate-600 dark:text-slate-400 inline">
         {{event.year}} -
       </p>
-        <p class="mt-2.1 text-md text-slate-500 leading-normal inline">
+        <p class="mt-2.1 text-md leading-normal text-slate-500 inline">
           {{event.local}}
         </p>
     </header>

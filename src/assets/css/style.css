@@ -4,6 +4,11 @@
 
 :root {
     color-scheme: dark light;
+    font-feature-settings: "ss01" 1, "cv06" 1, "cv11" 1;
+    font-variant-ligatures: contextual;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ::-webkit-scrollbar {
@@ -18,3 +23,26 @@
     background: linear-gradient(to bottom, #007bff, #0056b3);
     border-radius: 6px;
 }
+
+/*@media print {*/
+/*    html,*/
+/*    body {*/
+/*        background: #fff !important;*/
+/*    }*/
+
+/*    main {*/
+/*        min-height: 0 !important;*/
+/*        padding-top: 0 !important;*/
+/*        padding-bottom: 0 !important;*/
+/*        background: #fff !important;*/
+/*    }*/
+
+/*    .page {*/
+/*        max-width: 210mm !important;*/
+/*        min-height: 0 !important;*/
+/*        height: auto !important;*/
+/*        padding: 10mm 12mm !important;*/
+/*        background: #fff !important;*/
+/*        box-shadow: none !important;*/
+/*    }*/
+/*}*/

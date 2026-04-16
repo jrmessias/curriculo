@@ -74,15 +74,15 @@ const experiences = ref([
 <template>
   <section class="mb-4 break-inside-avoid" v-for="(experience, index) in experiences" :key="index">
     <header>
-      <h3 class="text-lg/2 font-semibold text-slate-600 dark:text-slate-400 leading-snugish">
+      <h3 class="font-sans text-lg/2 font-semibold leading-snugish text-slate-600 dark:text-slate-400">
         {{ experience.company }}
       </h3>
-      <p class="leading-normal text-md text-slate-600 dark:text-slate-400">
+      <p class="font-mono text-sm leading-normal text-slate-600 dark:text-slate-400">
         {{ experience.time }} | {{ experience.role }}
       </p>
     </header>
     <ul>
-      <li class="mt-2.1 text-md text-slate-500 leading-normal text-justify">
+      <li class="mt-2.1 text-md leading-normal text-justify text-slate-500">
         <span class="sm:-ml-3.2 select-none transform -translate-y-px">›</span>
         {{ experience.details }}
       </li>

@@ -32,8 +32,8 @@ const projects = ref([
 <template>
   <section class="mb-4.5 break-inside-avoid" v-for="(project, index) in projects" :key="index">
     <header>
-      <h3 class="text-lg/2 font-semibold eading-snugish text-slate-600 dark:text-slate-400">
-        <a href="{{project.link}}" class="group">
+      <h3 class="font-sans text-lg/2 font-semibold leading-snugish text-slate-600 dark:text-slate-400">
+        <a :href="project.link" class="group">
           {{ project.title }}
           <span
               class="inline-block text-slate-500 print:text-black font-normal group-hover:text-slate-700 transition duration-100 ease-in">↗</span>
@@ -43,7 +43,7 @@ const projects = ref([
       <!--    {{project.time}}-->
       <!--</p>-->
     </header>
-    <p class="mt-2.1 text-md text-slate-500 leading-normal">
+    <p class="mt-2.1 text-md leading-normal text-slate-500">
       {{ project.details }}
     </p>
   </section>

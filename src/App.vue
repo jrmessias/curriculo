@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'dark': isDarkMode }" class="transition duration-300">
+  <div :class="{ 'dark': isDarkMode }" class="font-serif transition duration-300">
     <main
         class="h-full min-h-screen text-slate-900 dark:text-slate-200 bg-gradient-to-t from-slate-300 to-slate-100 dark:from-slate-900 dark:to-slate-800 dark:bg-slate-700 md:py-6">
       <div
@@ -11,7 +11,7 @@
               style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
             <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">{{ site.acronym }}</div>
           </div>
-          <h1 class="text-2xl font-semibold text-slate-700 dark:text-slate-500 pb-px">
+          <h1 class="font-sans text-2xl font-semibold tracking-tight text-slate-700 dark:text-slate-500 pb-px">
             {{ site.title }}
           </h1>
         </header>
@@ -22,7 +22,7 @@
           <!-- Contact -->
           <section class="mt-8 first:mt-0">
             <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Contato
               </h2>
               <ContactWidget />
@@ -31,7 +31,7 @@
           <!-- Experience -->
           <section class="mt-8 first:mt-0">
             <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Experiência profissional
               </h2>
               <ProfessionalWidget/>
@@ -47,7 +47,7 @@
               <!--                      class="inline-block text-slate-500 print:text-black font-normal group-hover:text-slate-700 transition duration-100 ease-in">↗</span>-->
               <!--                </a>-->
               <!--              </div>-->
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Formação acadêmica
               </h2>
               <EducationWidget/>
@@ -65,7 +65,7 @@
           <section class="mt-8 first:mt-0">
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Projetos
               </h2>
               <ProjectWidget/>
@@ -74,7 +74,7 @@
           <section class="mt-8 first:mt-0">
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Eventos
               </h2>
               <EventWidget/>
@@ -83,7 +83,7 @@
           <section class="mt-8 first:mt-0">
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-700 dark:text-slate-300 uppercase">
+              <h2 class="mb-4 font-sans text-xs font-semibold tracking-[0.22em] text-slate-700 dark:text-slate-300 uppercase">
                 Skills
               </h2>
               <SkillWidget/>
